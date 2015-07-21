@@ -1,0 +1,80 @@
+C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\UI-MVC\bin\SC.UI.Web.MVC.dll.config
+C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\UI-MVC\bin\SC.UI.Web.MVC.dll
+C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\UI-MVC\bin\SC.UI.Web.MVC.pdb
+C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\UI-MVC\bin\Antlr3.Runtime.dll
+C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\UI-MVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\UI-MVC\bin\Newtonsoft.Json.dll
+C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\UI-MVC\bin\SC.BL.dll
+C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\UI-MVC\bin\SC.BL.Domain.dll
+C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\UI-MVC\bin\System.Web.Helpers.dll
+C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\UI-MVC\bin\System.Web.Mvc.dll
+C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\UI-MVC\bin\System.Web.Optimization.dll
+C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\UI-MVC\bin\System.Web.Razor.dll
+C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\UI-MVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\UI-MVC\bin\System.Web.WebPages.dll
+C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\UI-MVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\UI-MVC\bin\WebGrease.dll
+C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\UI-MVC\bin\SC.DAL.dll
+C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\UI-MVC\bin\EntityFramework.dll
+C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\UI-MVC\bin\EntityFramework.SqlServer.dll
+C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\UI-MVC\bin\SC.BL.pdb
+C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\UI-MVC\bin\SC.BL.Domain.pdb
+C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\UI-MVC\bin\System.Web.Helpers.xml
+C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\UI-MVC\bin\System.Web.Mvc.xml
+C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\UI-MVC\bin\System.Web.Optimization.xml
+C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\UI-MVC\bin\System.Web.Razor.xml
+C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\UI-MVC\bin\System.Web.WebPages.xml
+C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\UI-MVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\UI-MVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\UI-MVC\bin\Antlr3.Runtime.pdb
+C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\UI-MVC\bin\Newtonsoft.Json.xml
+C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\UI-MVC\bin\SC.DAL.pdb
+C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\UI-MVC\bin\EntityFramework.xml
+C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\UI-MVC\bin\EntityFramework.SqlServer.xml
+C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\UI-MVC\obj\Debug\UI-MVC.csprojResolveAssemblyReference.cache
+C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\UI-MVC\obj\Debug\SC.UI.Web.MVC.dll
+C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\UI-MVC\obj\Debug\SC.UI.Web.MVC.pdb
+C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\UI-MVC\bin\WebMatrix.Data.dll
+C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\UI-MVC\bin\WebMatrix.WebData.dll
+C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\UI-MVC\bin\WebMatrix.Data.xml
+C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\UI-MVC\bin\WebMatrix.WebData.xml
+C:\Users\Lukas\Desktop\SupportCenter\UI-MVC\bin\SC.UI.Web.MVC.dll.config
+C:\Users\Lukas\Desktop\SupportCenter\UI-MVC\bin\SC.UI.Web.MVC.dll
+C:\Users\Lukas\Desktop\SupportCenter\UI-MVC\bin\SC.UI.Web.MVC.pdb
+C:\Users\Lukas\Desktop\SupportCenter\UI-MVC\bin\Antlr3.Runtime.dll
+C:\Users\Lukas\Desktop\SupportCenter\UI-MVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Lukas\Desktop\SupportCenter\UI-MVC\bin\Newtonsoft.Json.dll
+C:\Users\Lukas\Desktop\SupportCenter\UI-MVC\bin\SC.BL.dll
+C:\Users\Lukas\Desktop\SupportCenter\UI-MVC\bin\SC.BL.Domain.dll
+C:\Users\Lukas\Desktop\SupportCenter\UI-MVC\bin\System.Web.Helpers.dll
+C:\Users\Lukas\Desktop\SupportCenter\UI-MVC\bin\System.Web.Mvc.dll
+C:\Users\Lukas\Desktop\SupportCenter\UI-MVC\bin\System.Web.Optimization.dll
+C:\Users\Lukas\Desktop\SupportCenter\UI-MVC\bin\System.Web.Razor.dll
+C:\Users\Lukas\Desktop\SupportCenter\UI-MVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Lukas\Desktop\SupportCenter\UI-MVC\bin\System.Web.WebPages.dll
+C:\Users\Lukas\Desktop\SupportCenter\UI-MVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\Lukas\Desktop\SupportCenter\UI-MVC\bin\WebGrease.dll
+C:\Users\Lukas\Desktop\SupportCenter\UI-MVC\bin\WebMatrix.Data.dll
+C:\Users\Lukas\Desktop\SupportCenter\UI-MVC\bin\WebMatrix.WebData.dll
+C:\Users\Lukas\Desktop\SupportCenter\UI-MVC\bin\SC.DAL.dll
+C:\Users\Lukas\Desktop\SupportCenter\UI-MVC\bin\EntityFramework.dll
+C:\Users\Lukas\Desktop\SupportCenter\UI-MVC\bin\EntityFramework.SqlServer.dll
+C:\Users\Lukas\Desktop\SupportCenter\UI-MVC\bin\SC.BL.pdb
+C:\Users\Lukas\Desktop\SupportCenter\UI-MVC\bin\SC.BL.Domain.pdb
+C:\Users\Lukas\Desktop\SupportCenter\UI-MVC\bin\System.Web.Helpers.xml
+C:\Users\Lukas\Desktop\SupportCenter\UI-MVC\bin\System.Web.Mvc.xml
+C:\Users\Lukas\Desktop\SupportCenter\UI-MVC\bin\System.Web.Optimization.xml
+C:\Users\Lukas\Desktop\SupportCenter\UI-MVC\bin\System.Web.Razor.xml
+C:\Users\Lukas\Desktop\SupportCenter\UI-MVC\bin\System.Web.WebPages.xml
+C:\Users\Lukas\Desktop\SupportCenter\UI-MVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Lukas\Desktop\SupportCenter\UI-MVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\Lukas\Desktop\SupportCenter\UI-MVC\bin\Antlr3.Runtime.pdb
+C:\Users\Lukas\Desktop\SupportCenter\UI-MVC\bin\WebMatrix.Data.xml
+C:\Users\Lukas\Desktop\SupportCenter\UI-MVC\bin\WebMatrix.WebData.xml
+C:\Users\Lukas\Desktop\SupportCenter\UI-MVC\bin\Newtonsoft.Json.xml
+C:\Users\Lukas\Desktop\SupportCenter\UI-MVC\bin\SC.DAL.pdb
+C:\Users\Lukas\Desktop\SupportCenter\UI-MVC\bin\EntityFramework.xml
+C:\Users\Lukas\Desktop\SupportCenter\UI-MVC\bin\EntityFramework.SqlServer.xml
+C:\Users\Lukas\Desktop\SupportCenter\UI-MVC\obj\Debug\UI-MVC.csprojResolveAssemblyReference.cache
+C:\Users\Lukas\Desktop\SupportCenter\UI-MVC\obj\Debug\SC.UI.Web.MVC.dll
+C:\Users\Lukas\Desktop\SupportCenter\UI-MVC\obj\Debug\SC.UI.Web.MVC.pdb

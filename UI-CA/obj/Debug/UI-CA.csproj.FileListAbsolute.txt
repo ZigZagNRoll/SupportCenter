@@ -1,0 +1,34 @@
+c:\users\indy\documents\visual studio 2013\Projects\SupportCenter\UI-CA\bin\Debug\SC.UI.CA.exe.config
+c:\users\indy\documents\visual studio 2013\Projects\SupportCenter\UI-CA\obj\Debug\UI-CA.csprojResolveAssemblyReference.cache
+c:\users\indy\documents\visual studio 2013\Projects\SupportCenter\UI-CA\bin\Debug\SC.UI.CA.exe
+c:\users\indy\documents\visual studio 2013\Projects\SupportCenter\UI-CA\bin\Debug\SC.UI.CA.pdb
+c:\users\indy\documents\visual studio 2013\Projects\SupportCenter\UI-CA\bin\Debug\SC.BL.dll
+c:\users\indy\documents\visual studio 2013\Projects\SupportCenter\UI-CA\bin\Debug\SC.BL.Domain.dll
+c:\users\indy\documents\visual studio 2013\Projects\SupportCenter\UI-CA\bin\Debug\SC.DAL.dll
+c:\users\indy\documents\visual studio 2013\Projects\SupportCenter\UI-CA\bin\Debug\SC.BL.pdb
+c:\users\indy\documents\visual studio 2013\Projects\SupportCenter\UI-CA\bin\Debug\SC.BL.Domain.pdb
+c:\users\indy\documents\visual studio 2013\Projects\SupportCenter\UI-CA\bin\Debug\SC.DAL.pdb
+c:\users\indy\documents\visual studio 2013\Projects\SupportCenter\UI-CA\obj\Debug\SC.UI.CA.exe
+c:\users\indy\documents\visual studio 2013\Projects\SupportCenter\UI-CA\obj\Debug\SC.UI.CA.pdb
+C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\UI-CA\bin\Debug\SupportCenterDB.accdb
+C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\UI-CA\bin\Debug\EntityFramework.dll
+C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\UI-CA\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\UI-CA\bin\Debug\EntityFramework.xml
+C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\UI-CA\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lukas\Desktop\SupportCenter\UI-CA\bin\Debug\SupportCenterDB.accdb
+C:\Users\Lukas\Desktop\SupportCenter\UI-CA\bin\Debug\SC.UI.CA.exe.config
+C:\Users\Lukas\Desktop\SupportCenter\UI-CA\bin\Debug\SC.UI.CA.exe
+C:\Users\Lukas\Desktop\SupportCenter\UI-CA\bin\Debug\SC.UI.CA.pdb
+C:\Users\Lukas\Desktop\SupportCenter\UI-CA\bin\Debug\SC.BL.dll
+C:\Users\Lukas\Desktop\SupportCenter\UI-CA\bin\Debug\SC.BL.Domain.dll
+C:\Users\Lukas\Desktop\SupportCenter\UI-CA\bin\Debug\SC.DAL.dll
+C:\Users\Lukas\Desktop\SupportCenter\UI-CA\bin\Debug\EntityFramework.dll
+C:\Users\Lukas\Desktop\SupportCenter\UI-CA\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lukas\Desktop\SupportCenter\UI-CA\bin\Debug\SC.BL.pdb
+C:\Users\Lukas\Desktop\SupportCenter\UI-CA\bin\Debug\SC.BL.Domain.pdb
+C:\Users\Lukas\Desktop\SupportCenter\UI-CA\bin\Debug\SC.DAL.pdb
+C:\Users\Lukas\Desktop\SupportCenter\UI-CA\bin\Debug\EntityFramework.xml
+C:\Users\Lukas\Desktop\SupportCenter\UI-CA\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lukas\Desktop\SupportCenter\UI-CA\obj\Debug\UI-CA.csprojResolveAssemblyReference.cache
+C:\Users\Lukas\Desktop\SupportCenter\UI-CA\obj\Debug\SC.UI.CA.exe
+C:\Users\Lukas\Desktop\SupportCenter\UI-CA\obj\Debug\SC.UI.CA.pdb

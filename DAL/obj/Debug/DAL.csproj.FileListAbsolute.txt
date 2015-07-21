@@ -1,0 +1,12 @@
+c:\users\indy\documents\visual studio 2013\Projects\SupportCenter\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+c:\users\indy\documents\visual studio 2013\Projects\SupportCenter\DAL\bin\Debug\SC.DAL.dll
+c:\users\indy\documents\visual studio 2013\Projects\SupportCenter\DAL\bin\Debug\SC.DAL.pdb
+c:\users\indy\documents\visual studio 2013\Projects\SupportCenter\DAL\bin\Debug\SC.BL.Domain.dll
+c:\users\indy\documents\visual studio 2013\Projects\SupportCenter\DAL\bin\Debug\SC.BL.Domain.pdb
+c:\users\indy\documents\visual studio 2013\Projects\SupportCenter\DAL\obj\Debug\SC.DAL.dll
+c:\users\indy\documents\visual studio 2013\Projects\SupportCenter\DAL\obj\Debug\SC.DAL.pdb
+C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\DAL\bin\Debug\SC.DAL.dll.config
+C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\DAL\bin\Debug\EntityFramework.dll
+C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\DAL\bin\Debug\EntityFramework.xml
+C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\DAL\bin\Debug\EntityFramework.SqlServer.xml
