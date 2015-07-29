@@ -11,3 +11,16 @@ C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\BL\bin\Debug\E
 C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\BL\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\BL\bin\Debug\EntityFramework.xml
 C:\Users\Indy\Documents\Visual Studio 2013\Projects\SupportCenter\BL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lukas\Documents\GitHub\SupportCenter\BL\bin\Debug\SC.BL.dll
+C:\Users\Lukas\Documents\GitHub\SupportCenter\BL\bin\Debug\SC.BL.pdb
+C:\Users\Lukas\Documents\GitHub\SupportCenter\BL\bin\Debug\SC.BL.Domain.dll
+C:\Users\Lukas\Documents\GitHub\SupportCenter\BL\bin\Debug\SC.DAL.dll
+C:\Users\Lukas\Documents\GitHub\SupportCenter\BL\bin\Debug\EntityFramework.dll
+C:\Users\Lukas\Documents\GitHub\SupportCenter\BL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lukas\Documents\GitHub\SupportCenter\BL\bin\Debug\SC.DAL.pdb
+C:\Users\Lukas\Documents\GitHub\SupportCenter\BL\bin\Debug\SC.BL.Domain.pdb
+C:\Users\Lukas\Documents\GitHub\SupportCenter\BL\bin\Debug\EntityFramework.xml
+C:\Users\Lukas\Documents\GitHub\SupportCenter\BL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lukas\Documents\GitHub\SupportCenter\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+C:\Users\Lukas\Documents\GitHub\SupportCenter\BL\obj\Debug\SC.BL.dll
+C:\Users\Lukas\Documents\GitHub\SupportCenter\BL\obj\Debug\SC.BL.pdb

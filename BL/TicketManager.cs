@@ -53,11 +53,11 @@ namespace SC.BL
             return repo.CreateTicket(t);
         }
 
-        private void Validate(Ticket ticket)
-        {
-            Validator.ValidateObject(ticket, new ValidationContext(ticket)
-            , validateAllProperties: true);
-        }
+        //private void Validate(Ticket ticket)
+        //{
+        //    Validator.ValidateObject(ticket, new ValidationContext(ticket)
+        //    , validateAllProperties: true);
+        //}
 
         private void Validate(TicketResponse response)
         {
@@ -76,7 +76,19 @@ namespace SC.BL
 
         public void ChangeTicket(Ticket ticket)
         {
-            //
+            this.Validate(ticket);
+            repo.UpdateTicket(ticket);
+        }
+
+        private void Validate(Ticket ticket)
+        {
+            List<ValidationResult> errors = new List<ValidationResult>();
+            bool valid = Validator.TryValidateObject(ticket, new ValidationContext(ticket), errors
+            , validateAllProperties: true);
+            foreach (ValidationResult e in errors)
+                Console.WriteLine(e);
+            if (!valid)
+                throw new ValidationException("TicketResponse not valid!");
         }
 
         public void RemoveTicket(int ticketNumber)
