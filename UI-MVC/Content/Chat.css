@@ -1,0 +1,36 @@
+﻿
+#activeList {
+    border: 1px solid gray;
+    height: 300px;
+    width: 10%;
+    float:left;
+}
+
+#activeList li {
+    margin-left:-20px;
+    padding-left: -10px;
+}
+
+#discussion {
+    margin-left:11%;
+    font-size: 20px;
+    height:300px;
+    overflow:hidden;
+    overflow-y:scroll;
+    border:2px;
+    border:solid;
+    border-color:gray;
+    padding: 5px;
+
+}
+
+#discussion li {
+    border-bottom:1px solid;
+    list-style-type:none;
+    padding: 5px 0; 
+}
+
+#center {
+    padding-left: 5%;
+    padding-right: 5%;
+}

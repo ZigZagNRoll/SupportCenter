@@ -12,7 +12,7 @@ namespace SC.UI.Web.MVC.Controllers
     public class ChatController : Controller
     {
         // GET: Chat
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "User, Admin")]
         public ActionResult Chat()
         {
             ActiveUserViewModel model = new ActiveUserViewModel(){

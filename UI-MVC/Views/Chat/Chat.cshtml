@@ -1,13 +1,16 @@
 ﻿@model SC.UI.Web.MVC.Models.ActiveUserViewModel
+@Styles.Render("~/Content/Chat.css")
 @{
     ViewBag.Title = "Lobby";
 }
 
 <h2>Lobby</h2>
-<div class="container">
+<div class="container" id="center">
+    <ul id="activeList" title="Active users">
+    </ul>
     <ul id="discussion"></ul>
     <input type="hidden" id="displayname" value=@Model.UserName />
-    <input type="text" id="message" />
+    <input type="text" id="message" onkeydown="Enter" />
     <input type="button" id="sendmessage" value="Send" />
 </div>
 @section scripts {
@@ -23,22 +26,54 @@
             // Reference the auto-generated proxy for the hub.
             var chat = $.connection.chatHub;
             // Create a function that the hub can call back to display messages.
+            chat.client.addNewActiveUser = function (name) {
+                prompt("testAdd");
+                $('#activeList').append('<li>' + htmlEncode(name) + '</li>');
+            };
+
+            chat.client.removeActiveUser = function (name) {
+                prompt("testRemove");
+                var lis = document.querySelectorAll('#activeList li');
+                for (var i = 0; li = lis[i]; i++) {
+                    li.parentNode.removeChild(li);
+                }
+                $('#activeList').remove('<li>' + htmlEncode(name) + '</li>');
+            };
+            //chat.server.SendNewActiveUser($('#displayname').val());
+            //chat.client.addNewActiveUser($('#displayname').val());
+
             chat.client.addNewMessageToPage = function (name, message) {
                 // Add the message to the page.
-                $('#discussion').append('<li><strong>' + htmlEncode(name)
-                    + '</strong>: ' + htmlEncode(message) + '</li>');
+                var timeDate = new Date();
+                var minutes = timeDate.getMinutes();
+                if (minutes < 10)
+                    minutes = "0" + minutes;
+                var time = timeDate.getHours() + ":" + minutes;
+                var date = timeDate.getDate() + '/' + (timeDate.getMonth() + 1) + '/' + timeDate.getFullYear();
+                var current = date + ' ' + time
+
+                $('#discussion').prepend('<li><strong>' + htmlEncode(name)
+                    + ' </strong>' + current + ': ' + htmlEncode(message) + '</li>');
             };
             // Get the user name and store it to prepend to messages.
             //prompt($('#displayname').val());
             // Set initial focus to message input box.
             $('#message').focus();
             // Start the connection.
-            if (! $.connection.hub.start().done(function () {
+            if (!$.connection.hub.start().done(function () {
+                chat.server.sendNewUser($('#displayname').val());
                 $('#sendmessage').click(function () {
-                    // Call the Send method on the hub.
+                // Call the Send method on the hub.
                     chat.server.send($('#displayname').val(), $('#message').val());
                     // Clear text box and reset focus for next comment.
                     $('#message').val('').focus();
+            });
+                $(document).ready(function () {
+                   $('#message').keypress(function (e) {
+                    if (e.keyCode == 13) {
+                    $('#sendmessage').click();
+                    }
+            });
                 });
             })
             ){
@@ -46,10 +81,21 @@
             }
         });
         // This optional function html-encodes messages for display in the page.
+        window.onunload = function () {
+            prompt("remove user");
+            chat.server.sendRemoveUser($('#displayname').val());
+            prompt("remove user done");
+            return "test";
+        };
+
+        // add event listener to table
+        var el = document.getElementById("#center");
+        el.addEventListener(onDisconnected, removeUser, false);
+
+
         function htmlEncode(value) {
             var encodedValue = $('<div />').text(value).html();
             return encodedValue;
         }
     </script>
-
 }
