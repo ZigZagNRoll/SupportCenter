@@ -153,6 +153,7 @@
     </Compile>
     <Compile Include="Hubs\ChatHub.cs" />
     <Compile Include="Models\ActiveUserViewModel.cs" />
+    <Compile Include="Models\ChatUser.cs" />
     <Compile Include="Models\LoginViewModel.cs" />
     <Compile Include="Models\RegisterViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -225,10 +226,6 @@
     <ProjectReference Include="..\Domain\Domain.csproj">
       <Project>{5da32b09-ee0d-4d95-b249-5afd09a25144}</Project>
       <Name>Domain</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\SignalRChat\SignalRChat.csproj">
-      <Project>{8b8312fa-4c20-404f-918c-04e3e0497832}</Project>
-      <Name>SignalRChat</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

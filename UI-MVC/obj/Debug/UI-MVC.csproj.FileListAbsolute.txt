@@ -94,7 +94,6 @@ C:\Users\Lukas\Documents\GitHub\SupportCenter\UI-MVC\bin\Newtonsoft.Json.dll
 C:\Users\Lukas\Documents\GitHub\SupportCenter\UI-MVC\bin\Owin.dll
 C:\Users\Lukas\Documents\GitHub\SupportCenter\UI-MVC\bin\SC.BL.dll
 C:\Users\Lukas\Documents\GitHub\SupportCenter\UI-MVC\bin\SC.BL.Domain.dll
-C:\Users\Lukas\Documents\GitHub\SupportCenter\UI-MVC\bin\SignalRChat.dll
 C:\Users\Lukas\Documents\GitHub\SupportCenter\UI-MVC\bin\System.Web.Helpers.dll
 C:\Users\Lukas\Documents\GitHub\SupportCenter\UI-MVC\bin\System.Web.Mvc.dll
 C:\Users\Lukas\Documents\GitHub\SupportCenter\UI-MVC\bin\System.Web.Optimization.dll
@@ -110,7 +109,6 @@ C:\Users\Lukas\Documents\GitHub\SupportCenter\UI-MVC\bin\EntityFramework.dll
 C:\Users\Lukas\Documents\GitHub\SupportCenter\UI-MVC\bin\EntityFramework.SqlServer.dll
 C:\Users\Lukas\Documents\GitHub\SupportCenter\UI-MVC\bin\SC.BL.pdb
 C:\Users\Lukas\Documents\GitHub\SupportCenter\UI-MVC\bin\SC.BL.Domain.pdb
-C:\Users\Lukas\Documents\GitHub\SupportCenter\UI-MVC\bin\SignalRChat.pdb
 C:\Users\Lukas\Documents\GitHub\SupportCenter\UI-MVC\bin\Microsoft.AspNet.SignalR.Core.xml
 C:\Users\Lukas\Documents\GitHub\SupportCenter\UI-MVC\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
 C:\Users\Lukas\Documents\GitHub\SupportCenter\UI-MVC\bin\Microsoft.Owin.xml

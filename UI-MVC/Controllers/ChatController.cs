@@ -19,7 +19,6 @@ namespace SC.UI.Web.MVC.Controllers
                 UserName = WebSecurity.CurrentUserName,
                 UserID = WebSecurity.CurrentUserId.ToString()
             };
-            ViewBag.naam = "naam";
             return View(model);
         }
     }

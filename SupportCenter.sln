@@ -12,11 +12,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI-CA", "UI-CA\UI-CA.csproj", "{53490E89-5B40-44E8-B3F1-C6CD5432513B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI-MVC", "UI-MVC\UI-MVC.csproj", "{C0693734-1020-43E3-85F3-D737EB841209}"
-	ProjectSection(ProjectDependencies) = postProject
-		{8B8312FA-4C20-404F-918C-04E3E0497832} = {8B8312FA-4C20-404F-918C-04E3E0497832}
-	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRChat", "SignalRChat\SignalRChat.csproj", "{8B8312FA-4C20-404F-918C-04E3E0497832}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -44,10 +39,6 @@ Global
 		{C0693734-1020-43E3-85F3-D737EB841209}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0693734-1020-43E3-85F3-D737EB841209}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0693734-1020-43E3-85F3-D737EB841209}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8B8312FA-4C20-404F-918C-04E3E0497832}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8B8312FA-4C20-404F-918C-04E3E0497832}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8B8312FA-4C20-404F-918C-04E3E0497832}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8B8312FA-4C20-404F-918C-04E3E0497832}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -3,3 +3,8 @@ c:\users\indy\documents\visual studio 2013\Projects\SupportCenter\Domain\bin\Deb
 c:\users\indy\documents\visual studio 2013\Projects\SupportCenter\Domain\bin\Debug\SC.BL.Domain.pdb
 c:\users\indy\documents\visual studio 2013\Projects\SupportCenter\Domain\obj\Debug\SC.BL.Domain.dll
 c:\users\indy\documents\visual studio 2013\Projects\SupportCenter\Domain\obj\Debug\SC.BL.Domain.pdb
+C:\Users\Lukas\Documents\GitHub\SupportCenter\Domain\bin\Debug\SC.BL.Domain.dll
+C:\Users\Lukas\Documents\GitHub\SupportCenter\Domain\bin\Debug\SC.BL.Domain.pdb
+C:\Users\Lukas\Documents\GitHub\SupportCenter\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
+C:\Users\Lukas\Documents\GitHub\SupportCenter\Domain\obj\Debug\SC.BL.Domain.dll
+C:\Users\Lukas\Documents\GitHub\SupportCenter\Domain\obj\Debug\SC.BL.Domain.pdb

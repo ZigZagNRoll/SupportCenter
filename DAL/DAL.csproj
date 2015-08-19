@@ -52,10 +52,12 @@
     <Compile Include="EF\TicketEFDbInitializer.cs" />
     <Compile Include="EF\TicketRepository.cs" />
     <Compile Include="ITicketRepository.cs" />
+    <Compile Include="IUserRepository.cs" />
     <Compile Include="OleDb\TicketRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SqlClient\TicketRepository.cs" />
     <Compile Include="TicketRepositoryHC.cs" />
+    <Compile Include="UserRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Domain\Domain.csproj">

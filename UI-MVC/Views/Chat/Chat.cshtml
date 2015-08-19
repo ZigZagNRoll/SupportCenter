@@ -25,47 +25,43 @@
         $(function () {
             // Reference the auto-generated proxy for the hub.
             var chat = $.connection.chatHub;
-            // Create a function that the hub can call back to display messages.
-            chat.client.addNewActiveUser = function (name) {
-                prompt("testAdd");
+
+            chat.client.removeActiveUser = function () {
+                $('#activeList').empty();
+            };
+
+            chat.client.fillActiveUser = function (name) {
                 $('#activeList').append('<li>' + htmlEncode(name) + '</li>');
             };
 
-            chat.client.removeActiveUser = function (name) {
-                prompt("testRemove");
-                var lis = document.querySelectorAll('#activeList li');
-                for (var i = 0; li = lis[i]; i++) {
-                    li.parentNode.removeChild(li);
-                }
-                $('#activeList').remove('<li>' + htmlEncode(name) + '</li>');
-            };
-            //chat.server.SendNewActiveUser($('#displayname').val());
-            //chat.client.addNewActiveUser($('#displayname').val());
-
-            chat.client.addNewMessageToPage = function (name, message) {
+            chat.client.addNewMessageToPage = function (current, name, message) {
                 // Add the message to the page.
-                var timeDate = new Date();
-                var minutes = timeDate.getMinutes();
-                if (minutes < 10)
-                    minutes = "0" + minutes;
-                var time = timeDate.getHours() + ":" + minutes;
-                var date = timeDate.getDate() + '/' + (timeDate.getMonth() + 1) + '/' + timeDate.getFullYear();
-                var current = date + ' ' + time
-
                 $('#discussion').prepend('<li><strong>' + htmlEncode(name)
                     + ' </strong>' + current + ': ' + htmlEncode(message) + '</li>');
+
             };
-            // Get the user name and store it to prepend to messages.
-            //prompt($('#displayname').val());
+
+            // On New User Connected
+            chat.client.onNewUserConnected = function (name) {
+                $('#activeList').append('<li>' + htmlEncode(name) + '</li>');
+            };
+
+            chat.client.onConnected = function (name) {
+                $('#activeList').append('<li>' + htmlEncode(name) + '</li>');
+            };
+
             // Set initial focus to message input box.
             $('#message').focus();
             // Start the connection.
             if (!$.connection.hub.start().done(function () {
-                chat.server.sendNewUser($('#displayname').val());
+                chat.server.connect($('#displayname').val());
                 $('#sendmessage').click(function () {
                 // Call the Send method on the hub.
-                    chat.server.send($('#displayname').val(), $('#message').val());
-                    // Clear text box and reset focus for next comment.
+                    var msg = $("#message").val();
+                    if (msg.length > 0) {
+                    chat.server.send(dateTime(), $('#displayname').val(), msg.toString());
+                    }
+                // Clear text box and reset focus for next comment.
                     $('#message').val('').focus();
             });
                 $(document).ready(function () {
@@ -80,22 +76,32 @@
                 prompt("kan geen connectie maken");
             }
         });
-        // This optional function html-encodes messages for display in the page.
-        window.onunload = function () {
-            prompt("remove user");
-            chat.server.sendRemoveUser($('#displayname').val());
-            prompt("remove user done");
-            return "test";
+
+        /*function getEventTarget(e) {
+            e = e || window.event;
+            return e.target || e.srcElement;
         };
 
-        // add event listener to table
-        var el = document.getElementById("#center");
-        el.addEventListener(onDisconnected, removeUser, false);
-
+        $('#activeList').click(function (event) {
+            var target = getEventTarget(event);
+            alert(target);
+            //Clients.Client(toUserId).sendPrivateMessage(..)
+        });*/
 
         function htmlEncode(value) {
             var encodedValue = $('<div />').text(value).html();
             return encodedValue;
-        }
+        };
+
+        function dateTime() {
+            var timeDate = new Date();
+            var minutes = timeDate.getMinutes();
+            if (minutes < 10)
+                minutes = "0" + minutes;
+            var time = timeDate.getHours() + ":" + minutes;
+            var date = timeDate.getDate() + '/' + (timeDate.getMonth() + 1) + '/' + timeDate.getFullYear();
+            var current = date + ' ' + time
+            return current;
+        };
     </script>
 }
